@@ -26,3 +26,9 @@
     python run.py -m AgentCF -d CDs-100-user-dense --train_batch_size=20 --eval_batch_size=200 --max_his_len=20 --MAX_ITEM_LIST_LENGTH=20 --epochs=1 --shuffle=False --api_batch=20 --test_only=True --loaded=True --saved=False --saved_idx=1000
     ```
  5. You can choose different prompting strategies, including Basic Prompting Strategy (B), sequential-enhanced (B+H), and retrieval-augmented (B+R), by setting the evaluation mode in the ``agentcf/props/AgentCF.yaml`` file as ``evaluation: basic/rag/sequential``
+
+
+ ## License
+
+This project is licensed under the Apache License 2.0.
+All data and code in this project can only be used for academic purposes.
